@@ -15,7 +15,7 @@
 - 后端代码地址：[https://github.com/vincenth520/pinche_xcx_data](https://github.com/vincenth520/pinche_xcx_data)
 
 
-##关于如何配置
+## 关于如何配置
 
 [点击查看配置教程](mailto:1091986039@qq.com)
 
