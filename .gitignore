@@ -1,2 +1,3 @@
-cache/*
-Uploads/*
+cache/
+Uploads/
+config/config.php
