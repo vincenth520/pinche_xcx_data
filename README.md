@@ -17,7 +17,7 @@
 
 ## 关于如何配置
 
-[点击查看配置教程](mailto:1091986039@qq.com)
+[点击查看配置教程](https://github.com/vincenth520/pinche_xcx_data/wiki/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%90%8C%E5%9F%8E%E6%8B%BC%E8%BD%A6%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%90%8E%E7%AB%AF)
 
 
 
