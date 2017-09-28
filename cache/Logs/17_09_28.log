@@ -1,0 +1,205 @@
+[ 2017-09-28T11:35:37+08:00 ] ::1 /pinche_xcx_data/
+NOTIC: [2] mkdir(): File exists D:\phpStudy\WWW\pinche_xcx_data\include\ThinkPHP\Common\build.php 第 34 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:42:57+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T11:43:01+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:43:04+08:00 ] ::1 /pinche_xcx_data/api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 19 行.
+NOTIC: [2] fopen(/dev/urandom): failed to open stream: No such file or directory D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 93 行.
+NOTIC: [1024] Can not open /dev/urandom. D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 101 行.
+NOTIC: [2] unlink(D:\phpStudy\WWW\pinche_xcx_data/cache/Temp/d41d8cd98f00b204e9800998ecf8427e.php): No such file or directory D:\phpStudy\WWW\pinche_xcx_data\include\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2017-09-28T11:43:05+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570185" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000000s ]
+
+[ 2017-09-28T11:43:05+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570185" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000000s ]
+
+[ 2017-09-28T11:47:24+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:47:26+08:00 ] ::1 /pinche_xcx_data/api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: 41pqPA0483th25 ]"}
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.009001s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 19 行.
+NOTIC: [2] fopen(/dev/urandom): failed to open stream: No such file or directory D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 94 行.
+NOTIC: [1024] Can not open /dev/urandom. D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 102 行.
+NOTIC: [2] unlink(D:\phpStudy\WWW\pinche_xcx_data/cache/Temp/d41d8cd98f00b204e9800998ecf8427e.php): No such file or directory D:\phpStudy\WWW\pinche_xcx_data\include\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2017-09-28T11:47:27+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570447" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001001s ]
+
+[ 2017-09-28T11:49:40+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:49:41+08:00 ] ::1 /pinche_xcx_data/api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: {"errcode":40125,"errmsg":"invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq, hints: [ req_id: IJ_ITa0618th20 ]"}
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 9 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 15 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: openid D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: session_key D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 16 行.
+NOTIC: [2] fopen(/dev/urandom): failed to open stream: No such file or directory D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 90 行.
+NOTIC: [1024] Can not open /dev/urandom. D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 98 行.
+NOTIC: [2] unlink(D:\phpStudy\WWW\pinche_xcx_data/cache/Temp/d41d8cd98f00b204e9800998ecf8427e.php): No such file or directory D:\phpStudy\WWW\pinche_xcx_data\include\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2017-09-28T11:49:43+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570583" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:51:02+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:51:05+08:00 ] ::1 /pinche_xcx_data/api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: {"session_key":"M1bs2vvIwNDQznn6Gk+Lcg==","expires_in":7200,"openid":"o7BUL0fEq9bYSTf-r7h0-ssfOUts"}
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o7BUL0fEq9bYSTf-r7h0-ssfOUts" or openid ="o7BUL0fEq9bYSTf-r7h0-ssfOUts" ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `xcx_user` (`openId`,`nickName`,`gender`,`language`,`city`,`province`,`country`,`avatarUrl`) VALUES ('o7BUL0fEq9bYSTf-r7h0-ssfOUts','h。',1,'zh_CN','Shenzhen','Guangdong','China','https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erV4iajoFdu2tUia5rOvnWKoZphicZymeNnL0RfW0P8yachh7osvibdLpYUXcRia7rhLWZvhL062ZvjUzQ/0') [ RunTime:0.001000s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o7BUL0fEq9bYSTf-r7h0-ssfOUts" or openid ="o7BUL0fEq9bYSTf-r7h0-ssfOUts" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] fopen(/dev/urandom): failed to open stream: No such file or directory D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 90 行.
+NOTIC: [1024] Can not open /dev/urandom. D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 98 行.
+
+[ 2017-09-28T11:51:06+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570666" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:51:06+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.010001s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570666" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:54:53+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:54:54+08:00 ] ::1 /pinche_xcx_data/api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: {"session_key":"154Y27cosIw4bL2XnnWfaQ==","expires_in":7200,"openid":"o7BUL0fEq9bYSTf-r7h0-ssfOUts"}
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o7BUL0fEq9bYSTf-r7h0-ssfOUts" or openid ="o7BUL0fEq9bYSTf-r7h0-ssfOUts" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o7BUL0fEq9bYSTf-r7h0-ssfOUts" or openid ="o7BUL0fEq9bYSTf-r7h0-ssfOUts" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] fopen(/dev/urandom): failed to open stream: No such file or directory D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 90 行.
+NOTIC: [1024] Can not open /dev/urandom. D:\phpStudy\WWW\pinche_xcx_data\Apps\Api\Controller\UserController.class.php 第 98 行.
+
+[ 2017-09-28T11:54:56+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570896" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:54:57+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570897" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:55:01+08:00 ] ::1 /pinche_xcx_data/api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:55:01+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.005000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570901" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000000s ]
+
+[ 2017-09-28T11:55:05+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570905" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.001000s ]
+
+[ 2017-09-28T11:55:07+08:00 ] ::1 /pinche_xcx_data/api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004000s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1506570907" and info.date <= "2017-10-05" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000000s ]
+
