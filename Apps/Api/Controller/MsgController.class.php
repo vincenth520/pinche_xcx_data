@@ -11,13 +11,15 @@ class MsgController extends Controller {
 		$page_count = 20;
 		$limit = ($page-1)*$page_count;
 		$data = M('msg')->field('msg.*,user.avatarUrl,user.nickName')->table('__MSG__ msg')->join('__USER__ user on msg.fid=user.id','LEFT')->where($where)->limit($limit,$page_count)->order('msg.time desc')->select();
-		$see['see'] = 1;
-		foreach($data as $v){
-			$arr[] = $v['id'];
+		if(!empty($data)){
+			$see['see'] = 1;
+			foreach($data as $v){
+				$arr[] = $v['id'];
+			}
+			$str = implode(',',$arr);
+			$str = 'id in ('.$str.')';
+			M('msg')->where($str)->save($see);
 		}
-		$str = implode(',',$arr);
-		$str = 'id in ('.$str.')';
-		M('msg')->where($str)->save($see);
 		$result['status'] = 1;
 		$result['msg'] = '消息加载成功';
 		$result['data'] = $data;		
