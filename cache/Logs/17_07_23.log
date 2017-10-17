@@ -1,0 +1,903 @@
+[ 2017-07-23T02:22:12+08:00 ] 112.5.236.141 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000473s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/90ef1fe1dc0152ca036cf71d5b316a1c.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T02:22:12+08:00 ] 112.5.236.141 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000628s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/d3636b2d511d0cfafd6789fabacad5c3.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T02:22:17+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000350s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500747737" and info.date <= "2017-07-30" and info.departure like "%宁德市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000362s ]
+
+[ 2017-07-23T02:22:17+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000352s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500747737" and info.date <= "2017-07-30" and info.departure like "%宁德市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000113s ]
+
+[ 2017-07-23T02:22:28+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000339s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500747748" and info.date <= "2017-07-30" and info.departure like "%路下%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000357s ]
+
+[ 2017-07-23T02:22:34+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000443s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500747754" and info.date <= "2017-07-30" and info.departure like "%路下%" and info.destination like "%屏南%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000441s ]
+
+[ 2017-07-23T02:22:37+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000783s ]
+
+[ 2017-07-23T02:22:37+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000639s ]
+
+[ 2017-07-23T02:22:39+08:00 ] 112.5.236.141 /api/info/mylist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000600s ]
+
+[ 2017-07-23T02:22:47+08:00 ] 112.5.236.141 /api/info/mylist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000521s ]
+
+[ 2017-07-23T02:22:57+08:00 ] 112.5.236.141 /api/info/mylist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000494s ]
+
+[ 2017-07-23T02:22:58+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000556s ]
+
+[ 2017-07-23T02:22:58+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000451s ]
+
+[ 2017-07-23T02:23:00+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000264s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000365s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000055s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:02+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000322s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000291s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000050s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:18+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000265s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 20,20   [ RunTime:0.000056s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000431s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000084s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:18+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000302s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 40,20   [ RunTime:0.000069s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000322s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:19+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000329s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000484s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000324s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000101s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:25+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000289s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000055s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000291s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000103s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:37+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000277s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000057s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000304s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:23:39+08:00 ] 112.5.236.141 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000656s ]
+
+[ 2017-07-23T02:23:45+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000454s ]
+
+[ 2017-07-23T02:23:45+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000426s ]
+
+[ 2017-07-23T02:23:46+08:00 ] 112.5.236.141 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000435s ]
+
+[ 2017-07-23T02:23:47+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000272s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000055s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000314s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:26:14+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000272s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000054s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000291s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000102s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:26:14+08:00 ] 112.5.236.141 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000902s ]
+
+[ 2017-07-23T02:26:15+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000498s ]
+
+[ 2017-07-23T02:26:15+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000987s ]
+
+[ 2017-07-23T02:26:15+08:00 ] 112.5.236.141 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000555s ]
+
+[ 2017-07-23T02:26:16+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000385s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000075s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000424s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:26:17+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000465s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 60,20   [ RunTime:0.000068s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000457s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000121s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:27:13+08:00 ] 112.5.236.141 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-07-23T02:27:14+08:00 ] 112.5.236.141 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/b80ed587d935921cfc72e435a1046c81.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T02:27:19+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000339s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500748039" and info.date <= "2017-07-30" and info.departure like "%宁德市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000742s ]
+
+[ 2017-07-23T02:27:24+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000333s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500748044" and info.date <= "2017-07-30" and info.departure like "%宁德市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000382s ]
+
+[ 2017-07-23T02:27:35+08:00 ] 112.5.236.141 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000473s ]
+
+[ 2017-07-23T02:27:36+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001025s ]
+
+[ 2017-07-23T02:27:36+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000976s ]
+
+[ 2017-07-23T02:27:45+08:00 ] 112.5.236.141 /api/appointment/my
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000411s ]
+
+[ 2017-07-23T02:27:45+08:00 ] 112.5.236.141 /api/appointment/getPassenger
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000501s ]
+
+[ 2017-07-23T02:27:46+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000456s ]
+
+[ 2017-07-23T02:27:46+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000593s ]
+
+[ 2017-07-23T02:27:50+08:00 ] 112.5.236.141 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000482s ]
+
+[ 2017-07-23T02:27:50+08:00 ] 112.5.236.141 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000415s ]
+
+[ 2017-07-23T02:27:51+08:00 ] 112.5.236.141 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000331s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000307s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000049s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T02:36:34+08:00 ] 169.229.3.91 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-07-23T02:48:37+08:00 ] 112.5.236.141 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+
+[ 2017-07-23T02:48:38+08:00 ] 112.5.236.141 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000473s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/8404bdd22b29bf2ff6542777c89c5afb.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T02:48:40+08:00 ] 112.5.236.141 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000474s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500749320" and info.date <= "2017-07-30" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000323s ]
+
+[ 2017-07-23T03:02:47+08:00 ] 183.61.47.108 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-07-23T07:43:09+08:00 ] 183.61.47.108 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-07-23T07:51:58+08:00 ] 119.23.150.148 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-23T08:49:20+08:00 ] 168.1.128.77 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-23T08:51:37+08:00 ] 168.1.128.77 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-07-23T10:00:20+08:00 ] 157.55.39.155 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-07-23T10:11:42+08:00 ] 113.88.160.209 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-07-23T12:22:42+08:00 ] 183.61.47.108 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-07-23T17:30:16+08:00 ] 62.210.131.181 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-07-23T17:30:16+08:00 ] 62.210.131.181 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-23T17:30:20+08:00 ] 180.163.8.254 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-07-23T19:04:51+08:00 ] 184.105.247.252 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-07-23T22:39:40+08:00 ] 157.55.39.155 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-07-23T22:58:14+08:00 ] 42.236.219.65 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/sns/jscode2session?appid=wx0aa456241abc9e8e&amp;secret=58ec56f0d3f37e4dcee7a75220bc6766&amp;js_code=the code is a mock one&amp;grant_type=authorization_code): failed to open stream: HTTP request failed! code 200 OK
+ /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000498s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: encryptedData /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: iv /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000057s ]
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/e4f4cda3e72a708d99a7949021c0270f.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T22:58:19+08:00 ] 42.236.219.65 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000327s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500821899" and info.date <= "2017-07-30" and info.departure like "%郑州市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000375s ]
+
+[ 2017-07-23T22:58:55+08:00 ] 42.236.219.65 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000404s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500821935" and info.date <= "2017-07-30" and info.departure like "%郑州市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000323s ]
+
+[ 2017-07-23T22:59:02+08:00 ] 42.236.219.65 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000353s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000281s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000051s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T22:59:09+08:00 ] 42.236.219.65 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000588s ]
+
+[ 2017-07-23T22:59:12+08:00 ] 42.236.219.65 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000677s ]
+
+[ 2017-07-23T22:59:12+08:00 ] 42.236.219.65 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000483s ]
+
+[ 2017-07-23T23:02:33+08:00 ] 27.38.145.160 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000368s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500822153" and info.date <= "2017-07-30" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000428s ]
+
+[ 2017-07-23T23:02:34+08:00 ] 27.38.145.160 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/2b6c6b61057c3454e6ed263d57488518.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T23:02:34+08:00 ] 27.38.145.160 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001708s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 12 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 18 行.
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "" or openid ="" ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [8] Undefined index: session_key /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/UserController.class.php 第 19 行.
+NOTIC: [2] unlink(/data/wwwroot/xcx.codems.cn/cache/Temp/888e6963e59f929d6c80c76100b4a2b1.php): No such file or directory /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 157 行.
+
+[ 2017-07-23T23:02:41+08:00 ] 27.38.145.160 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000340s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500822161" and info.date <= "2017-07-30" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000398s ]
+
+[ 2017-07-23T23:02:54+08:00 ] 27.38.145.160 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000395s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500822174" and info.date <= "2017-07-30" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000392s ]
+
+[ 2017-07-23T23:03:03+08:00 ] 27.38.145.160 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000330s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000489s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000059s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T23:03:11+08:00 ] 27.38.145.160 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000588s ]
+
+[ 2017-07-23T23:03:14+08:00 ] 27.38.145.160 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000568s ]
+
+[ 2017-07-23T23:03:14+08:00 ] 27.38.145.160 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000474s ]
+
+[ 2017-07-23T23:03:24+08:00 ] 27.38.145.160 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000439s ]
+
+[ 2017-07-23T23:03:24+08:00 ] 27.38.145.160 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000534s ]
+
+[ 2017-07-23T23:03:26+08:00 ] 27.38.145.160 /api/msg/getall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2048] Declaration of Api\Controller\MsgController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/MsgController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000603s ]
+
+[ 2017-07-23T23:04:10+08:00 ] 112.95.5.54 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000534s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000395s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000096s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T23:05:42+08:00 ] 27.38.145.160 /api/comment/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2048] Declaration of Api\Controller\CommentController::get() should be compatible with Think\Controller::get($name = '') /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/CommentController.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000605s ]
+
+[ 2017-07-23T23:06:41+08:00 ] 112.95.5.191 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000364s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 20,20   [ RunTime:0.000057s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: arr /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000311s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000108s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and type = "dynamic" ) ORDER BY comment.time desc' at line 1
+ [ SQL语句 ] : SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in () and type = "dynamic" ) ORDER BY comment.time desc 
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 70 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T23:07:05+08:00 ] 112.95.5.225 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000723s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2017-07-23T23:07:06+08:00 ] 112.95.5.225 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000345s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500822426" and info.date <= "2017-07-30" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000436s ]
+
+[ 2017-07-23T23:07:06+08:00 ] 112.95.5.225 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000368s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1500822426" and info.date <= "2017-07-30" and info.departure like "%深圳市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000063s ]
+
+[ 2017-07-23T23:07:07+08:00 ] 112.95.5.225 /api/dynamic/getlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `xcx_dynamic` [ RunTime:0.000387s ]
+SQL: SELECT dynamic.*,user.avatarUrl,user.nickName FROM xcx_dynamic dynamic LEFT JOIN xcx_user user ON user.id = dynamic.uid  WHERE ( 1=1 ) ORDER BY dynamic.time desc LIMIT 0,20   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `xcx_comment` [ RunTime:0.000394s ]
+SQL: SELECT comment.id,comment.iid,comment.reply,comment.content,user.nickName FROM xcx_comment comment LEFT JOIN xcx_user user ON user.id = comment.uid  WHERE ( iid in (12,10,9,7,6,3,4,2) and type = "dynamic" ) ORDER BY comment.time desc  [ RunTime:0.000103s ]
+NOTIC: [8] Undefined offset: 9 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 6 /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 71 行.
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/DynamicController.class.php 第 76 行.
+
+[ 2017-07-23T23:07:08+08:00 ] 112.95.5.225 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000715s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xcx_info` WHERE ( `uid` = 10001 ) LIMIT 1   [ RunTime:0.000077s ]
+
+[ 2017-07-23T23:07:08+08:00 ] 112.95.5.225 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000700s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xcx_info info RIGHT JOIN xcx_appointment appointment on info.id=appointment.iid  WHERE ( info.uid = "10001" and appointment.status = 0 ) LIMIT 1   [ RunTime:0.000064s ]
+
+[ 2017-07-23T23:07:16+08:00 ] 112.95.5.225 /api/info/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000442s ]
+
+[ 2017-07-23T23:07:16+08:00 ] 112.95.5.225 /api/appointment/mycount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000503s ]
+
+[ 2017-07-23T23:07:50+08:00 ] 112.95.13.99 /api/fav/myFav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000448s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `xcx_fav` [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `xcx_fav` [ RunTime:0.000271s ]
+SQL: SELECT info.*,fav.id as fad FROM xcx_fav fav LEFT JOIN xcx_info info ON info.id = fav.iid  WHERE ( fav.uid = '10001' ) ORDER BY fav.time asc LIMIT 0,20   [ RunTime:0.000354s ]
+
+[ 2017-07-23T23:08:20+08:00 ] 112.95.5.252 /api/fav/myFav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001055s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle`,`name` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `xcx_fav` [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `xcx_fav` [ RunTime:0.000271s ]
+SQL: SELECT info.*,fav.id as fad FROM xcx_fav fav LEFT JOIN xcx_info info ON info.id = fav.iid  WHERE ( fav.uid = '10001' ) ORDER BY fav.time asc LIMIT 20,20   [ RunTime:0.000358s ]
+
+[ 2017-07-23T23:16:19+08:00 ] 42.236.219.65 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-07-23T23:16:30+08:00 ] 42.236.219.65 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+

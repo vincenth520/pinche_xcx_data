@@ -1,0 +1,845 @@
+[ 2017-04-29T01:29:37+08:00 ] 183.60.48.111 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000138s ]
+
+[ 2017-04-29T07:13:08+08:00 ] 125.39.207.33 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004731s ]
+
+[ 2017-04-29T09:33:09+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000974s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000716s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.003232s ]
+
+[ 2017-04-29T09:33:09+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000673s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.002253s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000519s ]
+
+[ 2017-04-29T10:36:08+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010530s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000621s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2017-04-29T10:36:08+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000568s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000492s ]
+
+[ 2017-04-29T10:39:21+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000665s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000190s ]
+
+[ 2017-04-29T10:39:21+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000691s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2017-04-29T10:41:48+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.003210s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2017-04-29T11:42:37+08:00 ] 182.97.217.125 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000582s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000174s ]
+
+[ 2017-04-29T11:42:38+08:00 ] 182.97.217.125 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000901s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000202s ]
+
+[ 2017-04-29T11:50:48+08:00 ] 182.97.157.143 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001391s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.004240s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000407s ]
+
+[ 2017-04-29T11:50:48+08:00 ] 182.97.157.143 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000489s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000282s ]
+
+[ 2017-04-29T12:05:31+08:00 ] 182.97.157.143 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000571s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000204s ]
+
+[ 2017-04-29T12:05:32+08:00 ] 182.97.157.143 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000621s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000173s ]
+
+[ 2017-04-29T12:17:27+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000597s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000179s ]
+
+[ 2017-04-29T12:18:57+08:00 ] 182.97.157.143 /api/user/editUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000736s ]
+SQL: UPDATE `xcx_user` SET `avatarUrl`='https://xcx.codems.cn/Uploads/2017-04-28/5902d5527d321.jpg',`city`='南昌市',`gender`='1',`nickName`='12345全球',`province`='江西省',`county`='东湖区',`phone`='15350406670',`vehicle`='' WHERE ( `id` = 10000 ) [ RunTime:0.000683s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "10000" or openid ="10000" ) LIMIT 1   [ RunTime:0.000306s ]
+
+[ 2017-04-29T14:13:47+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-04-29T14:18:39+08:00 ] 182.100.30.49 /api/in(fo/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载控制器:In(fo
+
+[ 2017-04-29T14:20:09+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-04-29T14:20:55+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-04-29T14:21:24+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:22:15+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:22:20+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:22:25+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:22:26+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:22:34+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:24:51+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:25:17+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:25:22+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:25:35+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:26:20+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:27:19+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:27:26+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:27:34+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:28:56+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:29:25+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T14:31:04+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T15:42:45+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T15:42:49+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T15:43:50+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T15:46:15+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T15:48:13+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T16:05:14+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-04-29T16:05:38+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-04-29T16:06:51+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000583s ]
+
+[ 2017-04-29T16:08:12+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.002670s ]
+
+[ 2017-04-29T16:08:52+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000888s ]
+
+[ 2017-04-29T16:09:20+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000659s ]
+
+[ 2017-04-29T16:09:22+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000691s ]
+
+[ 2017-04-29T16:17:07+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.010671s ]
+
+[ 2017-04-29T16:22:15+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T16:29:04+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000644s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000182s ]
+
+[ 2017-04-29T16:29:26+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000626s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000173s ]
+
+[ 2017-04-29T16:46:08+08:00 ] 182.100.30.49 /api/upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/xcx.codems.cn/include/ThinkPHP/Library/Think/Upload.class.php 第 167 行.
+
+[ 2017-04-29T16:46:22+08:00 ] 182.100.30.49 /api/user/editUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001210s ]
+SQL: UPDATE `xcx_user` SET `avatarUrl`='https://xcx.codems.cn/Uploads/2017-04-29/590452d06ae81.jpg',`city`='南昌市',`gender`='1',`nickName`='12345全球',`province`='江西省',`county`='东湖区',`phone`='15350406670',`vehicle`='' WHERE ( `id` = 10000 ) [ RunTime:0.005371s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "10000" or openid ="10000" ) LIMIT 1   [ RunTime:0.000347s ]
+
+[ 2017-04-29T17:46:58+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000746s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2017-04-29T17:47:15+08:00 ] 182.100.30.49 /api/user/editUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000580s ]
+SQL: UPDATE `xcx_user` SET `avatarUrl`='https://xcx.codems.cn/Uploads/2017-04-29/590452d06ae81.jpg',`city`='南昌市',`gender`='1',`nickName`='12345全球123',`province`='江西省',`county`='东湖区',`phone`='15350406670',`vehicle`='' WHERE ( `openId` = 'o0Jv50H2UUMf7oasVnbtZtBAwZ-U' ) [ RunTime:0.000303s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2017-04-29T17:49:52+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000572s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000212s ]
+
+[ 2017-04-29T17:49:52+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000486s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000142s ]
+
+[ 2017-04-29T18:04:29+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000619s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000572s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000698s ]
+
+[ 2017-04-29T18:05:06+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000632s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000469s ]
+
+[ 2017-04-29T18:07:43+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000596s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000523s ]
+
+[ 2017-04-29T18:07:51+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000803s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000597s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000987s ]
+
+[ 2017-04-29T18:08:28+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000946s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000814s ]
+
+[ 2017-04-29T18:53:45+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000459s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000365s ]
+
+[ 2017-04-29T23:12:53+08:00 ] 182.100.30.49 /api/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000627s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000189s ]
+
+[ 2017-04-29T23:13:04+08:00 ] 182.100.30.49 /api/user/editUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000521s ]
+SQL: UPDATE `xcx_user` SET `avatarUrl`='https://xcx.codems.cn/Uploads/2017-04-29/590452d06ae81.jpg',`city`='南昌市',`gender`='1',`nickName`='12345全球123',`province`='江西省',`county`='东湖区',`phone`='15350406670',`vehicle`='' WHERE ( `openId` = 'o0Jv50H2UUMf7oasVnbtZtBAwZ-U' ) [ RunTime:0.000250s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2017-04-29T23:20:20+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000500s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000216s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000452s ]
+
+[ 2017-04-29T23:20:27+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000542s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000226s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000765s ]
+
+[ 2017-04-29T23:20:46+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000579s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000576s ]
+
+[ 2017-04-29T23:20:56+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001076s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T23:20:59+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000837s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T23:21:00+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.001513s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Common/function.php 第 7 行.
+
+[ 2017-04-29T23:21:09+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000957s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of Api\Model\InfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /data/wwwroot/xcx.codems.cn/Apps/Api/Model/InfoModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000550s ]
+
+[ 2017-04-29T23:21:58+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000686s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000769s ]
+SQL: INSERT INTO `xcx_info` (`name`,`gender`,`phone`,`type`,`departure`,`destination`,`date`,`time`,`vehicle`,`surplus`,`remark`,`uid`) VALUES ('12345全球123',1,'15350406670',1,'江西省南昌市东湖区新府路118号翠林路','江西省南昌市东湖区新府路118号翠林路','2017-04-29','00:00','ss',1,'',10000) [ RunTime:0.059502s ]
+
+[ 2017-04-29T23:27:08+08:00 ] 182.100.30.49 /api/info/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `xcx_user` [ RunTime:0.000614s ]
+SQL: SELECT `id`,`avatarUrl`,`city`,`gender`,`nickName`,`province`,`county`,`phone`,`vehicle` FROM `xcx_user` WHERE ( id = "o0Jv50H2UUMf7oasVnbtZtBAwZ-U" or openid ="o0Jv50H2UUMf7oasVnbtZtBAwZ-U" ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.009727s ]
+SQL: INSERT INTO `xcx_info` (`name`,`gender`,`phone`,`type`,`departure`,`destination`,`date`,`time`,`vehicle`,`surplus`,`remark`,`uid`) VALUES ('12345全球123',1,'15350406670',1,'江西省南昌市东湖区新府路118号翠林路','江西省吉安市万安县仁德路16号','2017-04-29','00:00','哈弗H7',1,'东西比较多，希望你东西不要太多',10000) [ RunTime:0.062392s ]
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 21 行.
+
+[ 2017-04-29T23:55:38+08:00 ] 182.100.30.49 /api/info/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-04-29T23:56:36+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001806s ]
+
+[ 2017-04-29T23:57:00+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000748s ]
+
+[ 2017-04-29T23:57:20+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000484s ]
+
+[ 2017-04-29T23:57:25+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000661s ]
+
+[ 2017-04-29T23:57:31+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000674s ]
+
+[ 2017-04-29T23:57:33+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000673s ]
+
+[ 2017-04-29T23:57:33+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000711s ]
+
+[ 2017-04-29T23:57:33+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000574s ]
+
+[ 2017-04-29T23:57:45+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000159s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:58:02+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000656s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000166s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:58:53+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001318s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000206s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:58:54+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001564s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000172s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:58:54+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000702s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000284s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:05+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.004855s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000205s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:06+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000848s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000149s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:06+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000654s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000580s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:36+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000997s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000155s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:36+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001095s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000160s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:38+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000837s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000164s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:38+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000158s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:38+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001307s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000647s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:38+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000585s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000125s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:50+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000129s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:50+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000612s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000158s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:50+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000690s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000182s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:51+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000180s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:51+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000914s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000134s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 42 行.
+
+[ 2017-04-29T23:59:59+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000800s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000147s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 43 行.
+
+[ 2017-04-29T23:59:59+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001107s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000164s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 43 行.
+
+[ 2017-04-29T23:59:59+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000645s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000160s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 43 行.
+
+[ 2017-04-29T23:59:59+08:00 ] 182.100.30.49 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000636s ]
+SQL: SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc  [ RunTime:0.000152s ]
+ERR: 1054:Unknown column 'info.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `xcx_info` WHERE ( info.status = 1 and date >= DATE_SUB(curdate(),INTERVAL 0 DAY) ) ORDER BY date asc,time asc 
+NOTIC: [2] json_encode(): Invalid UTF-8 sequence in argument /data/wwwroot/xcx.codems.cn/Apps/Api/Controller/InfoController.class.php 第 43 行.
+

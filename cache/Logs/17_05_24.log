@@ -1,0 +1,82 @@
+[ 2017-05-24T07:07:42+08:00 ] 125.39.207.33 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003308s ]
+
+[ 2017-05-24T08:33:27+08:00 ] 59.53.20.220 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-05-24T09:36:41+08:00 ] 207.46.13.119 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-05-24T09:48:10+08:00 ] 59.53.20.220 /api/user/vaild_sk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+
+[ 2017-05-24T09:48:11+08:00 ] 59.53.20.220 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003675s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.001170s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1495590491" and info.date <= "2017-05-31" and info.departure like "%南昌市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000464s ]
+
+[ 2017-05-24T09:48:21+08:00 ] 59.53.20.220 /api/info/lists
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `xcx_info` [ RunTime:0.000565s ]
+SQL: SELECT info.*,user.avatarUrl FROM xcx_info info LEFT JOIN xcx_user user ON user.id = info.uid  WHERE ( info.status = 1 and info.time >= "1495590501" and info.date <= "2017-05-31" and info.departure like "%南昌市%" ) ORDER BY time asc LIMIT 0,20   [ RunTime:0.000440s ]
+
+[ 2017-05-24T18:18:01+08:00 ] 169.229.3.91 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-05-24T22:56:54+08:00 ] 43.241.229.245 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-05-24T22:56:55+08:00 ] 43.241.229.245 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2017-05-24T22:56:55+08:00 ] 43.241.229.245 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-05-24T23:58:25+08:00 ] 139.162.106.181 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
