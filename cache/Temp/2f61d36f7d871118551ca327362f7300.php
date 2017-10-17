@@ -1,3 +1,0 @@
-<?php
-//000002592000s:28:"oAkAB0YkirG9N2BOM0no10XENUHU";
-?>

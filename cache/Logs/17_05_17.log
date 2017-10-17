@@ -1,8 +1,0 @@
-[ 2017-05-17T10:22:34+08:00 ] 207.46.13.142 /
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000890s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTrace [ RunTime:0.000849s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
-
