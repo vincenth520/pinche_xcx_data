@@ -1,38 +1,31 @@
-﻿## 简介
+﻿# pinche_xcx_data
 
-ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
+[![GitHub stars](https://img.shields.io/github/stars/vincenth520/pinche_xcx_data.svg)](https://github.com/vincenth520/pinche_xcx_data/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vincenth520/pinche_xcx_data.svg)](https://github.com/vincenth520/pinche_xcx_data/network)
+[![GitHub issues](https://img.shields.io/github/issues/vincenth520/pinche_xcx_data.svg)](https://github.com/vincenth520/pinche_xcx_data/issues)
+[![GitHub release](https://img.shields.io/github/release/vincenth520/pinche_xcx_data.svg)](https://github.com/vincenth520/pinche_xcx_data/releases)
+[![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)](https://raw.githubusercontent.com/vincenth520/pinche_xcx_data/master/LICENSE)
 
-## 全面的WEB开发特性支持
+## 项目说明
 
-最新的ThinkPHP为WEB应用开发提供了强有力的支持，这些支持包括：
+此源码为同城拼车微信小程序的后端源码，此源码只用作学习和交流,请勿用作商业用途及销售获利
 
-*  MVC支持-基于多层模型（M）、视图（V）、控制器（C）的设计模式
-*  ORM支持-提供了全功能和高性能的ORM支持，支持大部分数据库
-*  模板引擎支持-内置了高性能的基于标签库和XML标签的编译型模板引擎
-*  RESTFul支持-REST模式提供了RESTFul支持，为你打造全新的URL设计和访问体验
-*  云引擎支持-提供了对新浪SAE平台和百度BAE平台的强力支持，具备“横跨性”和“平滑性”，支持本地化开发和调试以及部署切换，让你轻松过渡，打造全新的开发体验。
-*  CLI支持-支持基于命令行的应用开发
-*  AMF支持-支持Flex开发和Flash通讯，打造互联网富应用
-*  PHPRPC支持-提供基于PHPRpc的WEBService解决方案
-*  MongoDb支持-提供NoSQL的支持
-*  缓存支持-提供了包括文件、数据库、Memcache、Xcache、Redis等多种类型的缓存支持
 
-## 大道至简的开发理念
+- 前端代码地址：[https://github.com/vincenth520/pinche_xcx](https://github.com/vincenth520/pinche_xcx)
+- 后端代码地址：[https://github.com/vincenth520/pinche_xcx_data](https://github.com/vincenth520/pinche_xcx_data)
 
-ThinkPHP从诞生以来一直秉承大道至简的开发理念，无论从底层实现还是应用开发，我们都倡导用最少的代码完成相同的功能，正是由于对简单的执着和代码的修炼，让我们长期保持出色的性能和极速的开发体验。在主流PHP开发框架的评测数据中表现卓越，简单和快速开发是我们不变的宗旨。
 
-## 安全性
+## 关于如何配置
 
-框架在系统层面提供了众多的安全特性，确保你的网站和产品安全无忧。这些特性包括：
+[点击查看配置教程](https://github.com/vincenth520/pinche_xcx_data/wiki/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%90%8C%E5%9F%8E%E6%8B%BC%E8%BD%A6%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%90%8E%E7%AB%AF)
 
-*  XSS安全防护
-*  表单自动验证
-*  强制数据类型转换
-*  输入数据过滤
-*  表单令牌验证
-*  防SQL注入
-*  图像上传检测
 
-## 商业友好的开源协议
 
-ThinkPHP遵循Apache2开源协议发布。Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再作为开源或商业软件发布。
+## 有问题
+你可以用以下联系方式找到我(`不接受问问题,有问题请直接提交`[issue](https://github.com/vincenth520/pinche_xcx/issues))
+
+(点击链接加入群【微信小程序开发交流】：https://jq.qq.com/?_wv=1027&k=4Em0dwJ)
+
+- email[[1091986039@qq.com](mailto:1091986039@qq.com)]
+- qq[1091986039]
+- wechat[1091986039]
