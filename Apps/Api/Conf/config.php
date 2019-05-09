@@ -1,6 +1,6 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
-	'APPID' => 'wxac6f7972118d9e2f',
-	'AppSecret' => '6136f372c6760ec2310d24c50932192b',
+	'APPID' => 'wx0aa456241abc9e8e',
+	'AppSecret' => 'cb10ea69158ef5c786c9e39cf6ea478f',
 );

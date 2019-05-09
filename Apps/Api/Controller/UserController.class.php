@@ -95,6 +95,7 @@ class UserController extends Controller {
         else
         {
             trigger_error('Can not open /dev/urandom.');
+            return substr(time().MD5(time().rand()), 0, $len);
         }
         // convert from binary to string
         $result = base64_encode($result);
