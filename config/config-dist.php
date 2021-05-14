@@ -31,5 +31,6 @@ return array(
 
  	'TMPL_FILE_DEPR' => '_',
     'TMPL_CACHE_ON'  => false,
-    'HTML_CACHE_ON'  =>false
+    'HTML_CACHE_ON'  => false,
+    'BASE_URL'       => 'https://xcx.codems.cn'
 );
