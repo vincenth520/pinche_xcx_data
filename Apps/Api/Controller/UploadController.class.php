@@ -18,7 +18,7 @@ class UploadController extends Controller {
 	    }else{// 上传成功
 	        $result['status'] = 1;
 	        $result['msg'] = '上传成功';
-	        $result['data'] = 'https://xcx.codems.cn/Uploads/'.$info['file']['savepath'].$info['file']['savename'];
+	        $result['data'] = C('BASE_URL').'/Uploads/'.$info['file']['savepath'].$info['file']['savename'];
 	    }
 	    exit(json_encode($result));
 	}
