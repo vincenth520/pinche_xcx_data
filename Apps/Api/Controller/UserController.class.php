@@ -4,12 +4,12 @@ use Think\Controller;
 class UserController extends Controller {
     public function login(){   
         $sk = $this->getOpenid(I('code'));
-
         $u = D('User');
         $user = $u->getUserInfo($sk['openid']);
         if(empty($user)){ //如果第一次登陆
             $UserInfo = json_decode($this->getUserInfo($sk['session_key'],I('encryptedData'),I('iv')),true);
             unset($UserInfo['watermark']);
+            $UserInfo['openId'] = $sk['openid'];
             $u->add($UserInfo);
         }
         $user = $u->getUserInfo($sk['openid']);

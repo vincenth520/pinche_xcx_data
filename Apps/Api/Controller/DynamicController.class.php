@@ -13,10 +13,10 @@ class DynamicController extends Controller {
 		$C = D('Dynamic');
 		if($C->addDynamic($data)){
 			$result['status'] = 1;
-			$result['msg'] = '发表成功';
+			$result['msg'] = '鍙戣〃鎴愬姛';
 		}else{
 			$result['status'] = 0;
-			$result['msg'] = '发表失败';
+			$result['msg'] = '鍙戣〃澶辫触';
 		}		
 		exit(json_encode($result));
 	}
@@ -29,10 +29,10 @@ class DynamicController extends Controller {
 		$C = D('Dynamic');
 		if($C->where($data)->delete()){
 			$result['status'] = 1;
-			$result['msg'] = '删除成功';
+			$result['msg'] = '鍒犻櫎鎴愬姛';
 		}else{
 			$result['status'] = 0;
-			$result['msg'] = '删除失败';
+			$result['msg'] = '鍒犻櫎澶辫触';
 		}
 		exit(json_encode($result));		
 	}
@@ -71,7 +71,7 @@ class DynamicController extends Controller {
 			$list[$k]['comment'] = $arr[$v['id']];
 		}
 		$result['status'] = 1;
-		$result['msg'] = '获取成功';
+		$result['msg'] = '鑾峰彇鎴愬姛';
 		$result['list'] = $list;
 		exit(json_encode($result));
 	}
