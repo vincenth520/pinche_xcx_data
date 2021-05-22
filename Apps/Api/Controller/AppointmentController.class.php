@@ -59,7 +59,7 @@ class AppointmentController extends Controller {
 		$u = D('User');
 		$user = $u->getUserInfo(vaild_sk(I('sk')));
 		$infoObj = D('Info');
-		$info = $infoObj->field('info.id,appointment.*')->table('__INFO__ info')->join('__APPOINTMENT__ appointment on info.id=appointment.iid','RIGHT')->where('info.uid = "'.$user['id'].'"')->order('appointment.time desc')->select();
+		$info = $infoObj->field('info.id,appointment.*')->table('__INFO__ info')->join('__APPOINTMENT__ appointment on info.id=appointment.iid','RIGHT')->where('(info.uid = "'.$user['id'].'" and info.type = 1) or (appointment.uid = "'.$user['id'].'" and info.type = 2)')->order('appointment.time desc')->select();
 		$result['status'] = 1;
 		$result['msg'] = '获取成功';
 		$result['data'] = $info;
@@ -81,7 +81,7 @@ class AppointmentController extends Controller {
 		$u = D('User');
 		$user = $u->getUserInfo(vaild_sk(I('sk')));
 		$infoObj = D('Info');
-		$info = $infoObj->field('info.id,info.phone,info.departure,info.destination,info.time,appointment.status')->table('__INFO__ info')->join('__APPOINTMENT__ appointment on info.id=appointment.iid','RIGHT')->where('appointment.uid = "'.$user['id'].'"')->order('appointment.time desc')->select();
+		$info = $infoObj->field('info.id,info.phone,info.departure,info.destination,info.time,appointment.status')->table('__INFO__ info')->join('__APPOINTMENT__ appointment on info.id=appointment.iid','RIGHT')->where('(info.uid = "'.$user['id'].'" and info.type = 2) or (appointment.uid = "'.$user['id'].'" and info.type = 1)')->order('appointment.time desc')->select();
 		$result['status'] = 1;
 		$result['msg'] = '获取成功';
 		$result['data'] = $info;
